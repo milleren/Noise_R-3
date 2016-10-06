@@ -37,7 +37,7 @@ function rEllipse (x, y, w, h, depth, angle) {
     } else{
         ellipse(x, y, w, h);
         x = x + w * .8 * sin(angle);
-        y = y + h * .8 * cos(angle);
+        y = y + h * 8 * cos(angle);
         //angle +=.68;
         console.log(map(mouseX, 0, windowWidth, 0, 2*PI));
         //I liked 4.19
