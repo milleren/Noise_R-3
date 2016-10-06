@@ -6,7 +6,7 @@ var n;
 function setup() {
     createCanvas(windowWidth, windowHeight);
     //initialize variables
-    centerX = windowWidth / 2;
+    centerX = windowWidth / .2;
     centerY = windowHeight / 2;
     iter = 0;
     n = 0;
